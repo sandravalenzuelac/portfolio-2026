@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+      <link href="https://cdn.jsdelivr.net/npm/remixicon@3.0.0/fonts/remixicon.css" rel="stylesheet">
+      <link rel="stylesheet" href="static/swiper-bundle.min.css">
+      <!--=============== CSS ===============-->
+      <link rel="icon" type="image/png" href="static/img/portfolio.png">
+      <link rel="stylesheet" href="static/styles.css">
+
+      <title>Portfolio Sandra Valenzuela</title>
+   </head>
+   <body>
+    <audio id="clickSound" src="static/sounds/click.mp3" preload="auto"></audio>
+    <audio id="hoverSound" src="static/sounds/hover.mp3" preload="auto"></audio>
+      <!--==================== HEADER ====================-->
+      <header class="header" id="header">
+         <nav class="nav container">
+            <a href="#" class="nav__logo">
+                <img src="static/img/portfolio.png" alt="logo portfolio" class="nav__logo-img">
+            </a>
+         
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">Inicio</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">Sobre mi</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#skill" class="nav__link">Habilidades</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#work" class="nav__link">Experiencia</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#projects" class="nav__link">Proyectos</a>
+                    </li>
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">Contactame</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+         </nav>
+      </header>
+
+      <!--==================== MAIN ====================-->
+      <main class="main">
+         <!--==================== HOME ====================-->
+         <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content">
+                    <div class="home__data">
+                        <h3 class="home__subtitle reveal"> Hola, <span>soy</span></h3>
+
+                        <h1 class="home__title reveal delay-2">Sandra Valenzuela</h1>
+
+                        <h3 class="home__education reveal delay-3">
+                            <span id="typewriter"></span><span class="cursor">|</span>
+                        </h3>
+
+                        <p class="home__description reveal delay-4">
+                            Soy software Developer con experiencia en entornos de testing y aseguramiento de calidad de software.
+                        </p>
+
+                        <a href="#contact" class="button reveal delay-5">Contactame</a>
+                    </div>
+
+                    <div class="home__social">
+                        <a href="https://github.com/sandravalenzuelac" target="_blank" class="home__social-link reveal delay-6">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                   
+                        <a href="https://www.linkedin.com/in/sandra-valenzuela/" target="_blank" class="home__social-link reveal delay-6">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+
+                        <a href="https://wa.me/541153744122" target="_blank" class="home__social-link reveal delay-6">
+                            <i class="ri-whatsapp-line"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="home__image reveal delay-7">
+                    <svg class="home__blob" viewBox="0 0 550 591" xmlns="http://www.w3.org/2000/svg">
+                        <mask id="maskBlob" mask-type="alpha">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                            170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                            447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                            587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                            438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                        </mask>
+                        <g mask="url(#maskBlob)">
+                            <path d="M263 47.1782C270.426 42.891 279.574 42.891 287 47.1782L501.157 
+                            170.822C508.583 175.109 513.157 183.032 513.157 191.606V438.894C513.157 
+                            447.468 508.583 455.391 501.157 459.678L287 583.322C279.574 587.609 270.426 
+                            587.609 263 583.322L48.843 459.678C41.4174 455.391 36.843 447.468 36.843 
+                            438.894V191.606C36.843 183.032 41.4174 175.109 48.843 170.822L263 47.1782Z"/>
+                            <rect x="37" width="476" height="630" fill="url(#pattern0)"/>
+                        </g>
+                        <rect x="37" width="476" height="300" fill="url(#pattern1)"/>
+                        <defs>
+                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00108108 0.0404062 0)"/>
+                            </pattern>
+                            <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                <use href="#imageBlob" transform="matrix(0.00143057 0 0 0.00226984 0.0404062 0)"/>
+                            </pattern>
+                            <!-- Insert your profile (recommended size: 640 x 940) -->
+                            <image class="home__img" id="imageBlob" width="640" height="925" href="static/img/icon.png"/>
+                        </defs>
+                        </svg>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== ABOUT ====================-->
+         <section class="about section" id="about">
+            
+            <div class="about__container container grid" style="position: relative; overflow: hidden;">
+                <div id="particles-js" style="position: absolute; overflow: hidden; width: 100%; height: 100%; top: 0; left: 0; z-index: -1;"></div>
+                <div class="about__data">
+                    <h3 class="section__subtitle reveal delay-5">
+                        Perfil <span>Profesional</span>
+                    </h3>
+
+                    <h2 class="section__title reveal">
+                        Sobre mi
+                    </h2>
+
+                    <p class="about__description reveal delay-2">
+                        Desarrolladora Full Stack y QA Analyst especializada en testing funcional, validación de APIs, análisis de datos y automatización de procesos. Con experiencia en JavaScript, React, .NET y Python, integro el desarrollo de software con la creación de flujos automatizados en n8n e IA.
+                        <br>Destaco por mi enfoque analítico, proactividad y compromiso con la mejora continua para construir soluciones innovadoras y de calidad.
+                        <br>
+                        <br>
+                  <a href="static/img/SANDRA VALENZUELA.pdf" download class="button reveal delay-3">Descargar CV</a>
+                </div>
+
+                <div class="about__image reveal delay-4">
+                    <img src="static/img/ias.png" alt="" sizes="" srcset="">
+                </div>
+            </div>
+         </section>
+
+        <!------------ Skills ------------->
+        <section class="skills section" id="skill">
+            <div class="skills__container container grid">
+                <div class="skills__data">
+                    <h3 class="section__subtitle reveal delay-5">
+                        Mis <span>Herramientas</span>
+                    </h3>
+
+                    <h2 class="section__title reveal">
+                        Habilidades Técnicas
+                    </h2>
+
+                    <p class="skills__description reveal delay-2">
+                        Cuento con una formación sólida en desarrollo de software, enfocada en crear soluciones eficientes, escalables y centradas en el usuario. Mi stack combina tecnologías modernas de frontend, robustez en el backend y herramientas de gestión en la nube.
+                    </p>
+
+                    <div class="skill_container reveal delay-3">
+                        <!-- Frontend -->
+                        <div class="section_skills reveal delay-4">
+                            <img src="static/img/frontend.png" alt="imagen frontend" class="skill_img">
+                            <h3 class="skill_title">Desarrollo Frontend</h3> 
+                            <div class="badges">
+                                <div class="badge">HTML5</div>
+                                <div class="badge">CSS3</div>
+                                <div class="badge">JavaScript</div>
+                                <div class="badge">React JS</div>
+                                <div class="badge">Bootstrap</div>
+                                <div class="badge">Django</div>
+                                <div class="badge">Jinja2</div>
+                                <div class="badge">SASS</div>
+                            </div>
+                        </div>
+
+                        <!-- Backend -->
+                        <div class="section_skills reveal delay-5">
+                            <img src="static/img/backend.png" alt="imagen backend" class="skill_img">
+                            <h3 class="skill_title">Desarrollo Backend</h3> 
+                            <div class="badges">
+                                <div class="badge">Node.js</div>
+                                <div class="badge">Python</div>
+                                <div class="badge">C# (.NET)</div>
+                                <div class="badge">MySQL</div>
+                                <div class="badge">Firebase</div>
+                                <div class="badge">SQL</div>
+                            </div>
+                        </div>
+
+                        <!-- Herramientas y Cloud -->
+                        <div class="section_skills reveal delay-6">
+                            <img src="static/img/herramientas.png" alt="imagen herramientas" class="skill_img">
+                            <h3 class="skill_title">Herramientas</h3> 
+                            <div class="badges">
+                                <div class="badge">AWS CloudWatch (Logs)</div>
+                                <div class="badge">GIT / GitHub</div>
+                                <div class="badge">Microsoft 365</div>
+                                <div class="badge">Postman / Swagger</div>
+                                <div class="badge">APIs RESTful</div>
+                            </div>
+                        </div>
+
+                        <div class="section_skills reveal delay-7">
+                            <img src="static/img/iass.png" alt="imagen herramientas" class="skill_img">
+                            <h3 class="skill_title">Automatización e IA</h3> 
+                            <div class="badges">
+                                <div class="badge">n8n</div>
+                                <div class="badge">Make</div>
+                                <div class="badge">Microsoft Power Automate</div>
+                                <div class="badge">Integración de modelos de IA</div>
+                                <div class="badge">Modelos de lenguaje</div>
+                                <div class="badge">Ingeniería de prompts</div>
+                                <div class="badge">Bases de datos vectoriales</div>
+                            </div>
+                        </div>
+
+                        <div class="section_skills reveal delay-8">
+                            <img src="static/img/met.png" alt="imagen herramientas" class="skill_img">
+                            <h3 class="skill_title">Metodologías Agiles</h3> 
+                            <div class="badges">
+                                <div class="badge">Scrum</div>
+                                <div class="badge">Testing funcional</div>
+                                <div class="badge">Documentación Técnica</div>
+                                <div class="badge">Resolución de incidentes</div>
+                                <div class="badge">Integraciones entre sistemas</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+         <!--==================== WORK ====================-->
+         <section class="work section" id="work">
+            <h2 class="section__subtitle reveal delay-5">
+                <span> Mi </span>experiencia
+            </h2>
+            <h2 class="section__title reveal">
+                        Educación y Trabajo
+                    </h2>
+            <div class="work__container container grid">
+                <div class="work__tabs">
+                    <button class="work__button work-active reveal delay-2" data-target="#experience">
+                        Experiencia <i class="ri-briefcase-3-line"></i>
+                    </button>
+
+                    <button class="work__button reveal delay-3" data-target="#education">
+                        Educación <i class="ri-graduation-cap-line"></i>
+                    </button>
+                </div>
+                <div class="work__area reveal delay-4">
+                    <div class="work__line"></div>
+
+                    <div class="work__content work-active" data-content id="experience">
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title"> QA ANALYST & IMPLEMENTATION SPECIALIST</h1>
+                                    <h3 class="work__subtitle">GRUPO IN MOTION</h3>
+                                </div>
+
+                                <h2 class="work__year">Desde 2025</h2>
+                            </div>
+
+                            <p class="work__description"><u>Testing Funcional y APIs:</u> Ejecución de pruebas funcionales y técnicas sobre aplicaciones web y APIs REST utilizando Postman, validación de reglas de negocio, estructuras JSON y consistencia de datos.
+                                <br><u>Implementaciones y Despliegues:</u> Ejecución y seguimiento de despliegues en preproducción y producción, análisis de logs en AWS Lambda y diagnóstico de incidencias.
+                                <br><u>Monitoreo y Diagnóstico:</u> Análisis de incidentes mediante revisión de logs en AWS Lambda, identificación de causas raíz y seguimiento de incidencias hasta su resolución.
+                                <br><u>Automatización e Integraciones:</u> Relevamiento de requerimientos para la implementación de bots conversacionales e integraciones mediante APIs REST, colaborando en la optimización de procesos operativos.
+                                <br><u>Metodologías Ágiles:</u> Trabajo colaborativo con equipos de Desarrollo, QA y Producto bajo metodología Scrum, participando en refinamientos, seguimiento de incidencias y documentación técnica.
+                            </p>
+                        </div>
+
+                         <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title"> INGENIERA RESOLUTORA DE SOPORTE N2 / N3</h1>
+                                    <h3 class="work__subtitle">GRUPO IN MOTION</h3>
+                                </div>
+
+                                <h2 class="work__year">Desde 2025</h2>
+                            </div>
+
+                            <p class="work__description"><u>Resolución de Incidencias:</u>Diagnóstico y resolución de incidencias de alta complejidad en entornos productivos, garantizando la continuidad operativa y el cumplimiento de los acuerdos de nivel de servicio (SLA).
+                                <br><u>Análisis Funcional:</u> Investigación de comportamientos reportados por clientes, validación de configuraciones y coordinación con equipos de desarrollo para la resolución de errores.
+                                <br><u>Bases de Datos:</u> Desarrollo, optimización y análisis de consultas SQL para validación de información, generación de reportes y soporte en tareas de investigación.
+                                <br><u>Desarrollo Frontend:</u> Creación y mantenimiento de formularios dinámicos utilizando HTML, CSS y JavaScript para herramientas internas y requerimientos específicos de clientes.
+                                <br><u>Gestión de Incidentes:</u> Administración y seguimiento de tickets, documentación de soluciones, elaboración de procedimientos técnicos y comunicación con clientes y equipos internos.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="work__content reveal" data-content id="education">
+                        <div class="work__card">
+                            <div class="work__data reveal">
+                                <div>
+                                    <h1 class="work__title">AI Automation Avanzado</h1>
+                                    <h3 class="work__subtitle">Coder House</h3>
+                                </div>
+
+                                <h2 class="work__year">2026</h2>
+                            </div>
+
+                            <p class="work__description reveal delay-1">
+                                Diseño de sistemas inteligentes y autónomos orientados a la escalabilidad y eficiencia operativa.
+                                <br>Arquitecturas RAG & Knowledge Bases: Implementación de bases de conocimiento con búsqueda semántica y embeddings para conectar IAs con datos propios.
+                                <br>Sistemas Multimodales: Creación de flujos de trabajo que integran y procesan texto, imagen, audio y video en tiempo real.
+                                <br>Eficiencia & Observabilidad: Configuración de monitoreo avanzado (logging y métricas) y sistemas de respaldo (fallbacks) para flujos críticos.
+                                <br>IA de Mejora Continua: Desarrollo de procesos de autoevaluación y flujos de supervisión humana (Human-in-the-loop) para garantizar precisión.
+                            </p>
+                        </div>
+                        
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Tecnicatura universitaria en Programación</h1>
+                                    <h3 class="work__subtitle">Universidad Tecnologica Nacional</h3>
+                                </div>
+
+                                <h2 class="work__year">2025 - 2023</h2>
+                            </div>
+
+                            <p class="work__description">
+                                Participar en el desarrollo de sistemas informáticos utilizando diversos lenguajes de programación, técnicas y metodologías. Analizar, implementar y optimizar la programación de sistemas con habilidad técnica. Planificar tareas de programación dentro del equipo de desarrollo y según la tecnología del proyecto. Crear documentación técnica y de usuario basada en los requerimientos funcionales y técnicos.
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Curso de Python</h1>
+                                    <h3 class="work__subtitle">Udemy</h3>
+                                </div>
+
+                                <h2 class="work__year">2024</h2>
+                            </div>
+
+                            <p class="work__description">
+                                Especialización en la construcción de APIs REST profesionales y sistemas escalables.
+                                <br>Arquitectura de Software: Implementación de patrones de diseño (Service, Repository, Controller) y refactorización para código limpio y mantenible.
+                                <br>Gestión de Datos: Diseño de bases de datos relacionales, consultas SQL avanzadas e integración de ORM.
+                                <br>Seguridad y Servicios: Desarrollo de sistemas de autenticación, manejo de entornos virtuales y consumo de recursos web.
+                                <br>DevOps & Cloud: Control de versiones con Git/GitHub y despliegue (Deploy) de aplicaciones y bases de datos en la nube (Railway).
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Curso de programación en SQL</h1>
+                                    <h3 class="work__subtitle">Udemy</h3>
+                                </div>
+
+                                <h2 class="work__year">2024</h2>
+                            </div>
+
+                            <p class="work__description">
+                                Curso diseñado para aprender SQL de manera teórica y práctica, abordando conceptos clave y aplicándolos con ejemplos. Más allá de entender sus funcionalidades, aprender a decidir cuándo utilizarlas según cada situación. Con el objetivo de un conocimiento esencial del lenguaje SQL, es un lenguaje declarativo poderoso que permite resolver tareas complejas de forma sencilla y eficiente. Además, SQL para áreas que requieran análisis de datos.
+                            </p>
+                        </div>
+
+                           <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Clean Architecture en C# .NET</h1>
+                                    <h3 class="work__subtitle">Udemy</h3>
+                                </div>
+
+                                <h2 class="work__year">2024</h2>
+                            </div>
+
+                            <p class="work__description">
+                                Diseño de software profesional: Aplicación de Clean Architecture para separar la lógica del negocio de la base de datos, facilitando cambios técnicos sin afectar el funcionamiento principal.
+                                <br>Código de alta calidad: Uso de estándares que permiten que el sistema sea más fácil de testear y de actualizar por otros desarrolladores.
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Curso de Backend con .NET</h1>
+                                    <h3 class="work__subtitle">Udemy</h3>
+                                </div>
+
+                                <h2 class="work__year">2024</h2>
+                            </div>
+
+                            <p class="work__description">
+                             Curso para aprender a programar aplicaciones backend en .NET, comenzando con una base sólida en conceptos fundamentales y su propósito, lo que facilita replicar el conocimiento en otras tecnologías. .NET es una tecnología altamente demandada, explora las ventajas y desventajas de las herramientas del framework ASP.NET, enseñándo cómo aprovecharlas para optimizar el desarrollo sin reinventar la rueda. También se centra en C#, el lenguaje principal de .NET, proporcionando habilidades aplicables no solo en backend, sino en diversas áreas de desarrollo.
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">React JS</h1>
+                                    <h3 class="work__subtitle">CoderHouse</h3>
+                                </div>
+
+                                <h2 class="work__year">2022</h2>
+                            </div>
+
+                            <p class="work__description">
+                             Curso para profundizar en el desarrollo de componentes utilizando JavaScript y las características avanzadas de ES6, proporcionando una base sólida para crear aplicaciones modernas y eficientes. Manejar flujos de datos de manera efectiva, asegurando que tus aplicaciones sean escalables y fáciles de mantener. Asimismo, aplicación de el manejo de rutas utilizando Firebase, utilización del virtual DOM mediante los desarrollos de React JS. Creación de aplicaciones SPA.
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Java Script</h1>
+                                    <h3 class="work__subtitle">CoderHouse</h3>
+                                </div>
+
+                                <h2 class="work__year">2022</h2>
+                            </div>
+
+                            <p class="work__description">
+                                Curso sobre los fundamentos del lenguaje de programación JavaScript. Utilización de las librerías estudiando jQuery, así como aplicar técnicas de desarrollo para apps modernas con AJAX. Creación de soluciones web interactivas y trasladar los conocimientos del curso a cualquier framework JavaScript.
+                            </p>
+                        </div>
+
+                        <div class="work__card">
+                            <div class="work__data">
+                                <div>
+                                    <h1 class="work__title">Desarrollo Web</h1>
+                                    <h3 class="work__subtitle">CoderHouse</h3>
+                                </div>
+
+                                <h2 class="work__year">2022</h2>
+                            </div>
+
+                            <p class="work__description">
+                               Curso creación de un sitio web partiendo del prototipo en papel. Prácticas del desarrollo web, trabajando con HTML y CSS. Con herramientas para optimizar al máximo tu sitio web, implementando prácticas de versionado de código con GIT, y preprocesadores como SASS. Aplicación de Bootstrap, y comprención del SEO. Subidas al servidor.
+                            </p>    
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== PROJECTS ====================-->
+         <section class="projects section" id="projects">
+            <h2 class="section__title reveal delay-5">
+                Mis <span>Proyectos</span>
+            </h2>
+
+            <div class="projects__container container grid">
+                <div class="projects__swiper swiper reveal">
+                    <div class="swiper-wrapper">
+                        <article class="projects__card swiper-slide">
+                            <div class="blob"></div>
+                            <div class="projects__number reveal delay-2">
+                                <h1>01</h1>
+                                <h3>Web</h3>
+                            </div>
+
+                            <div class="projects__data reveal delay-3">
+                                <h1 class="projects__title">Junior Shop</h1>
+                                <p class="projects__subtitle">Tienda de Mascotas</p>
+                                <p class="projects__description">Este proyecto consiste en la creación de un sitio web completo para una tienda de mascotas llamada Junior Shop. El objetivo es transformar un prototipo en papel en una página web funcional, utilizando las mejores prácticas de desarrollo web con HTML y CSS. El resultado final es un sitio web atractivo. Los usuarios pueden navegar fácilmente por las categorías de productos, el sitio es rápido, moderno y optimizado para SEO, con una experiencia fluida en cualquier dispositivo.</p>
+                            </div>
+
+                            <div class="projects__image reveal delay-4">
+                                <img src="static/img/junior_shop.jpg" alt="">
+                                <a href="https://github.com/sandravalenzuelac/JuniorShop" target="_blank" class="projects__button">
+                                    <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="projects__card swiper-slide">
+                            <div class="blob"></div>
+                            <div class="projects__number">
+                                <h1>02</h1>
+                                <h3>Web</h3>
+                            </div>
+
+                            <div class="projects__data">
+                                <h1 class="projects__title">Memory Game</h1>
+                                <p class="projects__subtitle">Juego de Memoria</p>
+                                <p class="projects__description">Este proyecto es un juego de memoria interactivo creado utilizando JavaScript, HTML y CSS, como parte de un curso sobre los fundamentos del lenguaje de programación JavaScript. El juego está basado en las imágenes de los personajes de la famosa serie de televisión Los Simpson y consume una API de frases de la serie para generar un contenido dinámico en el juego. Se implementó jQuery para simplificar la manipulación del DOM.</p>
+                            </div>
+
+                            <div class="projects__image">
+                                <img src="static/img/game.jpg" alt="">
+                                <a href="https://github.com/sandravalenzuelac/Game" target="_blank" class="projects__button">
+                                     <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </article>
+                        <article class="projects__card swiper-slide">
+                            <div class="blob"></div>
+                            <div class="projects__number">
+                                <h1>03</h1>
+                                <h3>Web</h3>
+                            </div>
+
+                            <div class="projects__data">
+                                <h1 class="projects__title">App</h1>
+                                <p class="projects__subtitle">App de Productividad</p>
+                                <p class="projects__description">Sistema de gestión de tareas con MySQL, el sistema permite a los usuarios registrar, consultar, actualizar y eliminar tareas asociadas a su cuenta. Cada tarea incluye información como el título, descripción, estado, y hora de creación, con relaciones entre usuarios y tareas para asegurar integridad. Las consultas SQL permiten filtrar tareas según el usuario, visualizar tareas pendientes o completadas, y gestionar información de forma eficiente.</p>
+                            </div>
+
+                            <div class="projects__image">
+                                <img src="static/img/app.jpg" alt="">
+                                <a href="https://github.com/sandravalenzuelac/Proyecto" target="_blank" class="projects__button">
+                                     <i class="ri-arrow-right-up-line"></i>
+                                </a>
+                            </div>
+                        </article>
+                    </div>
+
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+         </section>
+
+         <!--==================== CONTACT ====================-->
+         <section class="contact section" id="contact" style="position: relative; overflow: hidden;">
+            <canvas id="particle-canvas" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 0; pointer-events: none;"></canvas>
+            <h3 class="section__subtitle reveal delay-4">
+                Conecta <span>conmigo</span>
+            </h3>
+            <h2 class="section__title reveal">
+                Contactame
+            </h2>
+
+            <div class="contact__container container grid reveal delay-2">
+                <form action="" class="contact__form" id="contact-form">
+                    <div class="contact__group">
+                        <input type="text" name="user_name"  required placeholder="Enter your name" class="contact__input">
+                         <input type="email" name="user_email"  required placeholder="Enter your mail" class="contact__input">
+                    </div>
+
+                    <textarea name="user_project" required placeholder="Enter your message" class="contact__input"></textarea>
+                    
+                    <p class="contact__message" id="contact-message"></p>
+
+                    <button type="submit" class="button contact__button reveal delay-3">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+         </section>
+      </main>
+
+      <!--==================== FOOTER ====================-->
+      <footer class="footer">
+    <div class="footer__container container">
+        <div class="footer__content grid">
+            <div class="footer__identity">
+                <h1 class="footer__title">
+                    Sandra <span>Valenzuela</span>
+                </h1>
+                <p class="footer__subtitle">Backend Developer</p>
+                <p class="footer__description">
+                    Construyendo arquitecturas sólidas y escalables para soluciones digitales.
+                </p>
+            </div>
+
+            <div class="footer__links">
+                <h3 class="footer__group-title">Explorar</h3>
+                <ul class="footer__list">
+                    <li><a href="#home" class="footer__link">Inicio</a></li>
+                    <li><a href="#projects" class="footer__link">Proyectos</a></li>
+                    <li><a href="#contact" class="footer__link">Contacto</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__social-section">
+                <h3 class="footer__group-title">Conectar</h3>
+                <div class="footer__social">
+                    <a href="https://wa.me/541153744122" target="_blank" class="footer__social-link" aria-label="Twitter">
+                        <i class="ri-whatsapp-line"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/sandra-valenzuela/" target="_blank" class="footer__social-link" aria-label="LinkedIn">
+                        <i class="ri-linkedin-fill"></i>
+                    </a>
+                    <a href="https://github.com/sandravalenzuelac" target="_blank" class="footer__social-link" aria-label="GitHub">
+                        <i class="ri-github-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <span class="footer__copy">
+                &#169; 2026 Sandra Valenzuela
+            </span>
+            <div class="footer__dev-tag">
+                <span>&lt;/&gt;</span> con pasión por el código.
+            </div>
+        </div>
+    </div>
+</footer>
+
+      <!--========== SCROLL UP ==========-->
+      <a href="#" class="scrollup" id="sroll-up">
+        <i class="ri-arrow-up-line"></i>
+      </a>
+
+      <!--=============== SCROLLREVEAL ===============-->
+      <script src="https://unpkg.com/scrollreveal"></script>
+
+      <!--=============== EMAIL JS ===============-->
+      <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+      <script src="static/swiper-bundle.min.js"></script>
+
+      <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+      <!--=============== MAIN JS ===============-->
+      <script src="static/main.js"></script>
+   </body>
+</html>
